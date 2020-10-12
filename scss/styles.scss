@@ -35,7 +35,7 @@
 
 // Define base and accent colors
 $base-color: #3498db;
-$base-color-hover: darken($base-color, 10%);
+$base-color-hover: darken($base-color, 45%);
 
 // Define background colors
 $background: #fff;
@@ -372,9 +372,9 @@ footer {
         color: #fff;
         font-weight: 900;
         font-size: 5em;
-        text-transform: uppercase;
+        //text-transform: uppercase;
         letter-spacing: 0.05em;
-        line-height: 0.9em;
+        line-height: 1.2em;
     }
 
     h2 {
@@ -652,6 +652,10 @@ footer {
 
 .project-image {
     float: left;
+}
+
+.rdimage {
+  border-radius: 50%;
 }
 
 .project-info {
